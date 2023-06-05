@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+  
+header {
+    background-color: #6c0383;
+    padding: 30px;
+    color: #fff;
+}
+  
+header h1 {
+    margin: 0;
+}
+nav ul li:hover{
+    background-color: #cf76ff;
+    transform: scale(1.5px);
+}
+.logo{
+    float: left;
+    position: absolute;
+    top: 0%;
+    width: 5%;
+    height: 10%;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+  
+nav ul li {
+    display: inline-block;
+    margin-right: 59px;
+    font-size: 21px; 
+    transition: 0.4s ease-in-out;
+}
+  
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+  
+section#welcome {
+    padding: 50px;
+    text-align: center;
+}
+  
+footer {
+    background-color: #f1f1f1;
+    padding: 20px;
+    text-align: center;
+}
+
+.buttons {
+    text-align: center;
+    margin-top: 50px;
+}
+  
+.buttons button {
+    padding: 30px 80px;
+    background-color: #b630ff;
+    border-radius: 20px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin-right: 10px;
+    margin-bottom: 15%;
+    font-size: 20px;
+}
+.buttons :hover{
+    background-color: #cf76ff;
+} 
+.buttons button:last-child {
+    margin-right: 0;
+}

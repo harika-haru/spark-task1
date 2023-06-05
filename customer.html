@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Customer Dashboard</title>
+  <link rel="stylesheet" type="text/css" href="customer.css">
+  <script src="script.js"></script>
+</head>
+<body>
+  <div class="home-button">
+   <a href="home.html">Home</a>
+  </div>
+
+  <h1>Welcome, Harika</h1>
+  <h2>Email: harika@email.com</h2>
+  <h2>Bank Balance: $5000</h2>
+
+  <table>
+    <tr>
+      <th>Name</th>
+      <th>Email</th>
+      <th>Bank Balance</th>
+    </tr>
+    <tr>
+      <td>Anju</td>
+      <td>anju23@email.com</td>
+      <td>$2300</td>
+    </tr>
+    <tr>
+      <td>Archana</td>
+      <td>arch34@email.com</td>
+      <td>$4450</td>
+    </tr>
+    <tr>
+      <td>Bhavya</td>
+      <td>bhavya34@email.com</td>
+      <td>$1500</td>
+    </tr>
+    <tr>
+      <td>Devu</td>
+      <td>devu14@email.com</td>
+      <td>$3000</td>
+    </tr>
+    <tr>
+      <td>Fathima</td>
+      <td>fathima35@email.com</td>
+      <td>$5000</td>
+    </tr>
+    <tr>
+      <td>Gopika</td>
+      <td>gopika76@email.com</td>
+      <td>$4000</td>
+    </tr>
+    <tr>
+      <td>Krishna</td>
+      <td>krishna7@email.com</td>
+      <td>$6000</td>
+    </tr>
+    <tr>
+      <td>Vishnu</td>
+      <td>vishnu18@email.com</td>
+      <td>$3500</td>
+    </tr>
+    <tr>
+      <td>Sravan</td>
+      <td>sravan09@email.com</td>
+      <td>$2500</td>
+    </tr>
+    <tr>
+      <td>Uday</td>
+      <td>uday10@email.com</td>
+      <td>$4200</td>
+    </tr>
+  </table><br>
+
+  <button onclick="showPaymentForm()">Send Money</button>
+
+  <div id="paymentForm" style="display: none;">
+    <h3>Send Money</h3>
+    <input type="email" id="senderEmail" placeholder="Sender's Email"><br>
+    <input type="email" id="receiverEmail" placeholder="Receiver's Email"><br>
+    <input type="number" id="amount" placeholder="Amount"><br>
+    <button onclick="sendMoney()">Send</button>
+  </div>
+
+  <div id="popupMessage" style="display: none;">
+    <h3 id="popupText"></h3>
+  </div>
+</body>
+</html>

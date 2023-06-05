@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+}
+  
+h1 {
+    color: #333;
+    margin-top: 60px;
+}
+.home-button {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: black;
+  padding: 10px;
+  margin: 0;
+  width: 10%;
+}
+.home-button a {
+  color: white;
+  text-decoration: none;
+}
+.back{
+  position: absolute;
+  left: 0%;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #00142a;
+  color: white;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+tr:nth-child(odd) {
+  background-color: #e2a6fe;
+} 
+button {
+    padding: 10px 20px;
+    background-color: #400042;
+    border-radius: 10px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+}
+button:hover{
+  background-color: #9e00c2;
+  transform: scale(1.5px);
+}
+  
+#paymentForm input, #paymentForm button {
+    margin: 10px 0px;
+    border-color: #cf76ff;
+    width:30% ;
+}
+  
+#popupMessage {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #ffffff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+  
