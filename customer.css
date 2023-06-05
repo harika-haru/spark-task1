@@ -43,11 +43,11 @@ tr:nth-child(even) {
 }
 
 tr:nth-child(odd) {
-  background-color: #e2a6fe;
+  background-color: #9ffffd;
 } 
 button {
     padding: 10px 20px;
-    background-color: #400042;
+    background-color: #0db866;
     border-radius: 10px;
     color: #fff;
     border: none;
@@ -55,13 +55,13 @@ button {
     font-size: 15px;
 }
 button:hover{
-  background-color: #9e00c2;
+  background-color: #2cff6b;
   transform: scale(1.5px);
 }
   
 #paymentForm input, #paymentForm button {
     margin: 10px 0px;
-    border-color: #cf76ff;
+    border-color: #0b070d;
     width:30% ;
 }
   

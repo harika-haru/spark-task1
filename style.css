@@ -5,7 +5,7 @@ body {
 }
   
 header {
-    background-color: #6c0383;
+    background-color: #000000;
     padding: 30px;
     color: #fff;
 }
@@ -14,7 +14,7 @@ header h1 {
     margin: 0;
 }
 nav ul li:hover{
-    background-color: #cf76ff;
+    background-color: #2f2e2f;
     transform: scale(1.5px);
 }
 .logo{
@@ -61,7 +61,7 @@ footer {
   
 .buttons button {
     padding: 30px 80px;
-    background-color: #b630ff;
+    background-color: #0d4a9f;
     border-radius: 20px;
     color: #fff;
     border: none;
@@ -71,7 +71,7 @@ footer {
     font-size: 20px;
 }
 .buttons :hover{
-    background-color: #cf76ff;
+    background-color: #4b78ff;
 } 
 .buttons button:last-child {
     margin-right: 0;

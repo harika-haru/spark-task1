@@ -10,6 +10,6 @@ function showPaymentForm() {
   
     var popupMessage = document.getElementById("popupMessage");
     var popupText = document.getElementById("popupText");
-    popupText.innerText = "Payment complete or Transaction successful.";
+    popupText.innerText = "Transaction successful.";
     popupMessage.style.display = "block";
   }
